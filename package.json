@@ -1,0 +1,14 @@
+{
+  "name": "game",
+  "version": "0.0.1",
+  "description": "Game",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Bilash",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
