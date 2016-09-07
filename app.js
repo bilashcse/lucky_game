@@ -19,5 +19,5 @@ app.get('/random',function(req,res,next){
 })
 
 app.listen(process.env.PORT || 3000,function(){
-	console.log('App running on 80 port')
+	console.log('App running on '+process.env.PORT || 3000+' port')
 })
