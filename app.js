@@ -18,6 +18,6 @@ app.get('/random',function(req,res,next){
 	res.json({number_1 : number_1, number_2: number_2, number_3: number_3});
 })
 
-app.listen(3000,function(){
-	console.log('App running on 3000 port')
+app.listen(80,function(){
+	console.log('App running on 80 port')
 })
